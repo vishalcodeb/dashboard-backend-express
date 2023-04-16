@@ -5,6 +5,7 @@
   "main": "./dist/src/index.js",
   "scripts": {
     "build": "tsc",
+    "start": "nodemon",
     "debug": "nodemon",
     "lint": "./node_modules/.bin/tslint --project ./tsconfig.json -e 'src/test/**/*.*'",
     "lint:fix": "./node_modules/.bin/tslint --project ./tsconfig.json -e 'src/test/**/*.*'  --fix",
